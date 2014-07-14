@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CF94D311973D50A0023F60D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF94D301973D50A0023F60D /* Foundation.framework */; };
+		1CF94D331973D50A0023F60D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF94D321973D50A0023F60D /* CoreGraphics.framework */; };
+		1CF94D351973D50A0023F60D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF94D341973D50A0023F60D /* UIKit.framework */; };
+		1CF94D3B1973D50A0023F60D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CF94D391973D50A0023F60D /* InfoPlist.strings */; };
+		1CF94D3D1973D50A0023F60D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF94D3C1973D50A0023F60D /* main.m */; };
+		1CF94D411973D50A0023F60D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF94D401973D50A0023F60D /* AppDelegate.m */; };
+		1CF94D431973D50A0023F60D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF94D421973D50A0023F60D /* Images.xcassets */; };
+		1CF94D4A1973D50A0023F60D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF94D491973D50A0023F60D /* XCTest.framework */; };
+		1CF94D4B1973D50A0023F60D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF94D301973D50A0023F60D /* Foundation.framework */; };
+		1CF94D4C1973D50A0023F60D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF94D341973D50A0023F60D /* UIKit.framework */; };
+		1CF94D541973D50A0023F60D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CF94D521973D50A0023F60D /* InfoPlist.strings */; };
+		1CF94D561973D50A0023F60D /* DemoForColorTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF94D551973D50A0023F60D /* DemoForColorTextFieldTests.m */; };
+		1CF94D621973D5270023F60D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF94D601973D5270023F60D /* ViewController.m */; };
+		1CF94D631973D5270023F60D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF94D611973D5270023F60D /* ViewController.xib */; };
+		1CF94D661973D5880023F60D /* TF_color.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF94D651973D5880023F60D /* TF_color.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CF94D4D1973D50A0023F60D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CF94D251973D50A0023F60D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CF94D2C1973D50A0023F60D;
+			remoteInfo = DemoForColorTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CF94D2D1973D50A0023F60D /* DemoForColorTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoForColorTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF94D301973D50A0023F60D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1CF94D321973D50A0023F60D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1CF94D341973D50A0023F60D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1CF94D381973D50A0023F60D /* DemoForColorTextField-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoForColorTextField-Info.plist"; sourceTree = "<group>"; };
+		1CF94D3A1973D50A0023F60D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CF94D3C1973D50A0023F60D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CF94D3E1973D50A0023F60D /* DemoForColorTextField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoForColorTextField-Prefix.pch"; sourceTree = "<group>"; };
+		1CF94D3F1973D50A0023F60D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CF94D401973D50A0023F60D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CF94D421973D50A0023F60D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CF94D481973D50A0023F60D /* DemoForColorTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoForColorTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF94D491973D50A0023F60D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1CF94D511973D50A0023F60D /* DemoForColorTextFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoForColorTextFieldTests-Info.plist"; sourceTree = "<group>"; };
+		1CF94D531973D50A0023F60D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CF94D551973D50A0023F60D /* DemoForColorTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoForColorTextFieldTests.m; sourceTree = "<group>"; };
+		1CF94D5F1973D5270023F60D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1CF94D601973D5270023F60D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1CF94D611973D5270023F60D /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		1CF94D641973D5880023F60D /* TF_color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TF_color.h; sourceTree = "<group>"; };
+		1CF94D651973D5880023F60D /* TF_color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TF_color.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CF94D2A1973D50A0023F60D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF94D331973D50A0023F60D /* CoreGraphics.framework in Frameworks */,
+				1CF94D351973D50A0023F60D /* UIKit.framework in Frameworks */,
+				1CF94D311973D50A0023F60D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF94D451973D50A0023F60D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF94D4A1973D50A0023F60D /* XCTest.framework in Frameworks */,
+				1CF94D4C1973D50A0023F60D /* UIKit.framework in Frameworks */,
+				1CF94D4B1973D50A0023F60D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CF94D241973D50A0023F60D = {
+			isa = PBXGroup;
+			children = (
+				1CF94D361973D50A0023F60D /* DemoForColorTextField */,
+				1CF94D4F1973D50A0023F60D /* DemoForColorTextFieldTests */,
+				1CF94D2F1973D50A0023F60D /* Frameworks */,
+				1CF94D2E1973D50A0023F60D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CF94D2E1973D50A0023F60D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CF94D2D1973D50A0023F60D /* DemoForColorTextField.app */,
+				1CF94D481973D50A0023F60D /* DemoForColorTextFieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CF94D2F1973D50A0023F60D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CF94D301973D50A0023F60D /* Foundation.framework */,
+				1CF94D321973D50A0023F60D /* CoreGraphics.framework */,
+				1CF94D341973D50A0023F60D /* UIKit.framework */,
+				1CF94D491973D50A0023F60D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CF94D361973D50A0023F60D /* DemoForColorTextField */ = {
+			isa = PBXGroup;
+			children = (
+				1CF94D3F1973D50A0023F60D /* AppDelegate.h */,
+				1CF94D401973D50A0023F60D /* AppDelegate.m */,
+				1CF94D421973D50A0023F60D /* Images.xcassets */,
+				1CF94D371973D50A0023F60D /* Supporting Files */,
+				1CF94D5F1973D5270023F60D /* ViewController.h */,
+				1CF94D601973D5270023F60D /* ViewController.m */,
+				1CF94D611973D5270023F60D /* ViewController.xib */,
+				1CF94D641973D5880023F60D /* TF_color.h */,
+				1CF94D651973D5880023F60D /* TF_color.m */,
+			);
+			path = DemoForColorTextField;
+			sourceTree = "<group>";
+		};
+		1CF94D371973D50A0023F60D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CF94D381973D50A0023F60D /* DemoForColorTextField-Info.plist */,
+				1CF94D391973D50A0023F60D /* InfoPlist.strings */,
+				1CF94D3C1973D50A0023F60D /* main.m */,
+				1CF94D3E1973D50A0023F60D /* DemoForColorTextField-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CF94D4F1973D50A0023F60D /* DemoForColorTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CF94D551973D50A0023F60D /* DemoForColorTextFieldTests.m */,
+				1CF94D501973D50A0023F60D /* Supporting Files */,
+			);
+			path = DemoForColorTextFieldTests;
+			sourceTree = "<group>";
+		};
+		1CF94D501973D50A0023F60D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CF94D511973D50A0023F60D /* DemoForColorTextFieldTests-Info.plist */,
+				1CF94D521973D50A0023F60D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CF94D2C1973D50A0023F60D /* DemoForColorTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF94D591973D50A0023F60D /* Build configuration list for PBXNativeTarget "DemoForColorTextField" */;
+			buildPhases = (
+				1CF94D291973D50A0023F60D /* Sources */,
+				1CF94D2A1973D50A0023F60D /* Frameworks */,
+				1CF94D2B1973D50A0023F60D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoForColorTextField;
+			productName = DemoForColorTextField;
+			productReference = 1CF94D2D1973D50A0023F60D /* DemoForColorTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CF94D471973D50A0023F60D /* DemoForColorTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF94D5C1973D50A0023F60D /* Build configuration list for PBXNativeTarget "DemoForColorTextFieldTests" */;
+			buildPhases = (
+				1CF94D441973D50A0023F60D /* Sources */,
+				1CF94D451973D50A0023F60D /* Frameworks */,
+				1CF94D461973D50A0023F60D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CF94D4E1973D50A0023F60D /* PBXTargetDependency */,
+			);
+			name = DemoForColorTextFieldTests;
+			productName = DemoForColorTextFieldTests;
+			productReference = 1CF94D481973D50A0023F60D /* DemoForColorTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CF94D251973D50A0023F60D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = darklinden;
+				TargetAttributes = {
+					1CF94D471973D50A0023F60D = {
+						TestTargetID = 1CF94D2C1973D50A0023F60D;
+					};
+				};
+			};
+			buildConfigurationList = 1CF94D281973D50A0023F60D /* Build configuration list for PBXProject "DemoForColorTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1CF94D241973D50A0023F60D;
+			productRefGroup = 1CF94D2E1973D50A0023F60D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CF94D2C1973D50A0023F60D /* DemoForColorTextField */,
+				1CF94D471973D50A0023F60D /* DemoForColorTextFieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CF94D2B1973D50A0023F60D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF94D3B1973D50A0023F60D /* InfoPlist.strings in Resources */,
+				1CF94D631973D5270023F60D /* ViewController.xib in Resources */,
+				1CF94D431973D50A0023F60D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF94D461973D50A0023F60D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF94D541973D50A0023F60D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CF94D291973D50A0023F60D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF94D621973D5270023F60D /* ViewController.m in Sources */,
+				1CF94D661973D5880023F60D /* TF_color.m in Sources */,
+				1CF94D411973D50A0023F60D /* AppDelegate.m in Sources */,
+				1CF94D3D1973D50A0023F60D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF94D441973D50A0023F60D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF94D561973D50A0023F60D /* DemoForColorTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CF94D4E1973D50A0023F60D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CF94D2C1973D50A0023F60D /* DemoForColorTextField */;
+			targetProxy = 1CF94D4D1973D50A0023F60D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CF94D391973D50A0023F60D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF94D3A1973D50A0023F60D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CF94D521973D50A0023F60D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF94D531973D50A0023F60D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CF94D571973D50A0023F60D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1CF94D581973D50A0023F60D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CF94D5A1973D50A0023F60D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoForColorTextField/DemoForColorTextField-Prefix.pch";
+				INFOPLIST_FILE = "DemoForColorTextField/DemoForColorTextField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1CF94D5B1973D50A0023F60D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoForColorTextField/DemoForColorTextField-Prefix.pch";
+				INFOPLIST_FILE = "DemoForColorTextField/DemoForColorTextField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1CF94D5D1973D50A0023F60D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoForColorTextField.app/DemoForColorTextField";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoForColorTextField/DemoForColorTextField-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DemoForColorTextFieldTests/DemoForColorTextFieldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1CF94D5E1973D50A0023F60D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoForColorTextField.app/DemoForColorTextField";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoForColorTextField/DemoForColorTextField-Prefix.pch";
+				INFOPLIST_FILE = "DemoForColorTextFieldTests/DemoForColorTextFieldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CF94D281973D50A0023F60D /* Build configuration list for PBXProject "DemoForColorTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF94D571973D50A0023F60D /* Debug */,
+				1CF94D581973D50A0023F60D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CF94D591973D50A0023F60D /* Build configuration list for PBXNativeTarget "DemoForColorTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF94D5A1973D50A0023F60D /* Debug */,
+				1CF94D5B1973D50A0023F60D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CF94D5C1973D50A0023F60D /* Build configuration list for PBXNativeTarget "DemoForColorTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF94D5D1973D50A0023F60D /* Debug */,
+				1CF94D5E1973D50A0023F60D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CF94D251973D50A0023F60D /* Project object */;
+}
